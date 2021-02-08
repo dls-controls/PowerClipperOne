@@ -1,0 +1,8 @@
+*_ppError.Log
+*_ppErrorHist.Log
+*_ppProj.Log
+*_pp_debug.txt
+Log
+Bin
+**/*.log
+**/*.out
