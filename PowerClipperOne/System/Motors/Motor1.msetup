@@ -1,6 +1,7 @@
 <MotorDataStructure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0" GenerateSystemSetupConfiguration="true" Motor="1" Topology="2">
   <CpuName>PowerPC,APM86xxx</CpuName>
   <FirmwareVersion>2.4.0.180</FirmwareVersion>
+  <ConfiguredViews>UserUnitsViewId</ConfiguredViews>
   <InterfaceData>
     <AmpMfg>Delta Tau Data Systems, Inc.</AmpMfg>
     <AmpPartNumber />
@@ -205,7 +206,7 @@
     <SwZvInt>0</SwZvInt>
   </ServoLoop>
   <ScaleFactor>
-    <CountsPerUserUnit>0</CountsPerUserUnit>
+    <CountsPerUserUnit>1000</CountsPerUserUnit>
     <MasterPosSf>0.001</MasterPosSf>
     <Pos2Sf>0.001</Pos2Sf>
     <PosSf>0.001</PosSf>
