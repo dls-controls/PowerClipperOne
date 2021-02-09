@@ -42,7 +42,7 @@
     <HomeOffset>0</HomeOffset>
     <HomeVel>0.0099999998</HomeVel>
     <JogOffset>0</JogOffset>
-    <JogSpeed>8</JogSpeed>
+    <JogSpeed>4</JogSpeed>
     <JogTa>10</JogTa>
     <JogTs>-50000</JogTs>
     <ProgJogPos>0</ProgJogPos>

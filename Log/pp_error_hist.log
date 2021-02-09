@@ -28,3 +28,5 @@ Generation of pp_diff.cfg failed on SAVE: Error opening file /var/ftp/usrflash/P
 Generation of pp_diff.cfg failed on SAVE: Error in section: [CID]
 [PMAC_PROJECT]
 [PMAC_PROJECT]
+[PMAC_CONFIG]
+Generation of pp_diff.cfg failed on SAVE: Error in section: [CID]
