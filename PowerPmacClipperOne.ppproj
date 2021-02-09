@@ -67,6 +67,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="System\Motors\Motor1.msetup">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="System\Motors\Motor2.msetup">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="System\Motors\Motor3.msetup">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="System\Motors\Motor4.msetup">
+      <SubType>Content</SubType>
+    </Content>
     <None Include="System\Hardware\Power Clipper[0].hwsetup">
       <SubType>Content</SubType>
     </None>
