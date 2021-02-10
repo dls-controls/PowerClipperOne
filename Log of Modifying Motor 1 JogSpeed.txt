@@ -1,0 +1,14 @@
+Log of Modifying Motor 1 JogSpeed
+
+Started Off with 4mm/millsec
+
+This I122 equivalent value can be seen in:
+(1) Velocity Limits GUI in mm/sec as 'Jog Command Velocity Magnitude'
+(2) the local project file System/Motors/Motor1.msetup XML as <BasicMotion><JogSpeed>4</JogSpeed>
+(3) the local project file Configuration/systemsetup.cfg INI as Motor[1].JogSpeed=4
+(4) the remote project file systemsetup.cfg in /opt/ppmac/Project/Configuration/systemsetup.cfg
+(5) from the terminal by querying 'I122' or 'Motor[1].JogSpeed'
+
+All locations except the GUI use mm/millsec units, GUI uses mm/sec
+
+All the above show it as 4 (or 4000)

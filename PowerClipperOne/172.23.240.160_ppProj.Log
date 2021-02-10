@@ -315,3 +315,21 @@ Status: Successful load of preprocessed File: "/var/ftp/usrflash/Temp/pp_proj.pm
 Status: Download to PPMAC Command Processor, Time (sec) = 0.008005
 Status: Final pp_proj.h & Run Background C Apps, Time (sec) = 0.806609
 Project Preprocessing & Load Total Time (sec) = 2.428589
+[PMAC_PROJECT]
+Start of Project Loading using INI File: "/var/ftp/usrflash/Project/Configuration/pp_proj.ini"
+LoadRTUserCode() Delta Time (sec) = 0.271657
+Including Project File: /var/ftp/usrflash/Project/Configuration/pp_disable.txt 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/global definitions.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Libraries/subprog1.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Libraries/timer.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Motion Programs/prog1.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/PLC Programs/plc1.plc 
+Including Project File: /var/ftp/usrflash/Project/Configuration/pp_startup.txt 
+Status: Pass 1 Create debug file, #defines, *.h & .sym files, Time (sec) = 0.452337
+Status: Pass 2 Verify prog calls, local stack & labels, Time (sec)  = 0.005260
+3 Project Symbols were created for gpascii -2 communication
+Status: Create PPMAC Symbol Table & Run CPP Time (sec) = 0.860977
+Status: Successful load of preprocessed File: "/var/ftp/usrflash/Temp/pp_proj.pma"
+Status: Download to PPMAC Command Processor, Time (sec) = 0.006599
+Status: Final pp_proj.h & Run Background C Apps, Time (sec) = 0.889995
+Project Preprocessing & Load Total Time (sec) = 2.490585
