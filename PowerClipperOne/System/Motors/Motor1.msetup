@@ -41,11 +41,11 @@
     <CaptPosRightShift>8</CaptPosRightShift>
     <CaptPosRound>1</CaptPosRound>
     <HomeOffset>0</HomeOffset>
-    <HomeVel>0.0099999998</HomeVel>
+    <HomeVel>10</HomeVel>
     <JogOffset>0</JogOffset>
-    <JogSpeed>5</JogSpeed>
+    <JogSpeed>10000</JogSpeed>
     <JogTa>10</JogTa>
-    <JogTs>-50000</JogTs>
+    <JogTs>-50</JogTs>
     <ProgJogPos>0</ProgJogPos>
     <ServoCaptTimeOffset>0</ServoCaptTimeOffset>
   </BasicMotion>
@@ -103,7 +103,7 @@
     <DacBias>0</DacBias>
     <EncType>5</EncType>
     <GantrySlewRate>0</GantrySlewRate>
-    <InPosBand>0.0099999998</InPosBand>
+    <InPosBand>10</InPosBand>
     <InPosTime>0</InPosTime>
     <MasterMaxAccel>0</MasterMaxAccel>
     <MasterMaxSpeed>0</MasterMaxSpeed>
@@ -119,26 +119,26 @@
     <UseOverride>false</UseOverride>
   </SafetyInput>
   <SafetyLimit>
-    <AbortTa>-2000</AbortTa>
+    <AbortTa>-2</AbortTa>
     <AbortTs>0</AbortTs>
     <AmpFaultLevel>0</AmpFaultLevel>
     <BrakeOffDelay>0</BrakeOffDelay>
     <BrakeOnDelay>0</BrakeOnDelay>
     <EncLossLevel>0</EncLossLevel>
     <EncLossLimit>0</EncLossLimit>
-    <FatalFeLimit>2</FatalFeLimit>
+    <FatalFeLimit>2000</FatalFeLimit>
     <FaultMode>0</FaultMode>
     <I2TSet>0</I2TSet>
     <I2TTrip>0</I2TTrip>
-    <InvAmax>10000</InvAmax>
-    <InvDmax>10000</InvDmax>
-    <InvJmax>50000</InvJmax>
+    <InvAmax>10</InvAmax>
+    <InvDmax>10</InvDmax>
+    <InvJmax>50</InvJmax>
     <MaxDac>28000</MaxDac>
-    <MaxPos>10</MaxPos>
-    <MaxSpeed>0.2</MaxSpeed>
-    <MinPos>-10</MinPos>
+    <MaxPos>10000</MaxPos>
+    <MaxSpeed>200</MaxSpeed>
+    <MinPos>-10000</MinPos>
     <SoftLimitOffset>0</SoftLimitOffset>
-    <WarnFeLimit>1</WarnFeLimit>
+    <WarnFeLimit>1000</WarnFeLimit>
   </SafetyLimit>
   <Servo>
     <DacShift>0</DacShift>
@@ -156,7 +156,7 @@
     <Ka6>0</Ka6>
     <Ka7>0</Ka7>
     <Kafb>0</Kafb>
-    <Kaff>1000</Kaff>
+    <Kaff>1</Kaff>
     <Kb0>1</Kb0>
     <Kb1>0</Kb1>
     <Kb2>0</Kb2>
@@ -186,9 +186,9 @@
     <Kf2>0</Kf2>
     <Kfff>0</Kfff>
     <Ki>0.0099999998</Ki>
-    <Kp>1000</Kp>
+    <Kp>1</Kp>
     <Kvfb>0</Kvfb>
-    <Kvff>1000</Kvff>
+    <Kvff>1</Kvff>
     <Kvifb>0</Kvifb>
     <Kviff>0</Kviff>
     <Kxig>0</Kxig>
@@ -196,7 +196,7 @@
     <Kxvg>0</Kxvg>
     <MaxGainFactor>1</MaxGainFactor>
     <MaxInt>28000</MaxInt>
-    <MaxPosErr>10</MaxPosErr>
+    <MaxPosErr>10000</MaxPosErr>
     <MinGainFactor>1</MinGainFactor>
     <OutDbOff>0</OutDbOff>
     <OutDbOn>0</OutDbOn>
@@ -206,11 +206,11 @@
     <SwZvInt>0</SwZvInt>
   </ServoLoop>
   <ScaleFactor>
-    <CountsPerUserUnit>1000</CountsPerUserUnit>
-    <MasterPosSf>0.001</MasterPosSf>
-    <Pos2Sf>0.001</Pos2Sf>
-    <PosSf>0.001</PosSf>
-    <PosUnit>3</PosUnit>
+    <CountsPerUserUnit>1</CountsPerUserUnit>
+    <MasterPosSf>1</MasterPosSf>
+    <Pos2Sf>1</Pos2Sf>
+    <PosSf>1</PosSf>
+    <PosUnit>0</PosUnit>
   </ScaleFactor>
   <Trajectory>
     <Pd1>0</Pd1>
